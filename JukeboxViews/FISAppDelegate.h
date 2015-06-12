@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FISPlaylist.h"
 
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 

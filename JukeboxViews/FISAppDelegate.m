@@ -12,7 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    FISSong *firstSong = [[FISSong alloc] initWithTitle:@"Dude" artist:@"Whatever" album:@"I don't really care." andFileName:@"ugh.whatever"];
+    FISSong *secondSong = [[FISSong alloc] initWithTitle:@"Hey there." artist:@"Ok GOOOO" album:@"Yeah ok sure." andFileName:@"ugh.yousuck"];
+    FISPlaylist *myPlaylist = [[FISPlaylist alloc] init];
+    myPlaylist.songs = [@[firstSong, secondSong] mutableCopy];
+    NSLog(@"%@", [myPlaylist description]);
+    [myPlaylist sortSongsByArtist];
+    NSLog(@"%@", [myPlaylist description]);
     return YES;
 }
 							

@@ -26,11 +26,13 @@
 		72DD195A19A66AEE004F3C2F /* gangsta_bleeding_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72DD195519A66AEE004F3C2F /* gangsta_bleeding_love.mp3 */; };
 		72DD195D19A66F3A004F3C2F /* bailando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72DD195C19A66F3A004F3C2F /* bailando.mp3 */; };
 		72DD195F19AE35DE004F3C2F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD195E19AE35DE004F3C2F /* AVFoundation.framework */; };
-		72F15A8F19E71618008331A7 /* FISJukeboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A8A19E71618008331A7 /* FISJukeboxViewController.m */; };
-		72F15A9019E71618008331A7 /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A8C19E71618008331A7 /* FISPlaylist.m */; };
-		72F15A9119E71618008331A7 /* FISSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A8E19E71618008331A7 /* FISSong.m */; };
 		72F15A9319E71FF9008331A7 /* FISSongSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A9219E71FF9008331A7 /* FISSongSpec.m */; };
 		72F5811519E737430059B0B6 /* FISPlaylistSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F5811419E737430059B0B6 /* FISPlaylistSpec.m */; };
+		80AA7C271B2B4CEB00414D34 /* 01 - Girl Talk - Oh No.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80AA7C261B2B4CEB00414D34 /* 01 - Girl Talk - Oh No.mp3 */; };
+		80AA7C291B2B4CF100414D34 /* 02 - Girl Talk - Let It Out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80AA7C281B2B4CF100414D34 /* 02 - Girl Talk - Let It Out.mp3 */; };
+		80D80A761B2B1D8E001F0743 /* FISJukeboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D80A751B2B1D8E001F0743 /* FISJukeboxViewController.m */; };
+		80EB2C701B2A261700C9F030 /* FISSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EB2C6F1B2A261700C9F030 /* FISSong.m */; };
+		80EB2C731B2A268100C9F030 /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EB2C721B2A268100C9F030 /* FISPlaylist.m */; };
 		836095CA0BA7143B33DEE520 /* libPods-JukeboxViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D243E15CEC3F26D0618321C7 /* libPods-JukeboxViewsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -70,14 +72,16 @@
 		72DD195519A66AEE004F3C2F /* gangsta_bleeding_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta_bleeding_love.mp3; sourceTree = "<group>"; };
 		72DD195C19A66F3A004F3C2F /* bailando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bailando.mp3; sourceTree = "<group>"; };
 		72DD195E19AE35DE004F3C2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		72F15A8919E71618008331A7 /* FISJukeboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISJukeboxViewController.h; sourceTree = "<group>"; };
-		72F15A8A19E71618008331A7 /* FISJukeboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISJukeboxViewController.m; sourceTree = "<group>"; };
-		72F15A8B19E71618008331A7 /* FISPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlaylist.h; sourceTree = "<group>"; };
-		72F15A8C19E71618008331A7 /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylist.m; sourceTree = "<group>"; };
-		72F15A8D19E71618008331A7 /* FISSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSong.h; sourceTree = "<group>"; };
-		72F15A8E19E71618008331A7 /* FISSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSong.m; sourceTree = "<group>"; };
 		72F15A9219E71FF9008331A7 /* FISSongSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSongSpec.m; sourceTree = "<group>"; };
 		72F5811419E737430059B0B6 /* FISPlaylistSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylistSpec.m; sourceTree = "<group>"; };
+		80AA7C261B2B4CEB00414D34 /* 01 - Girl Talk - Oh No.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01 - Girl Talk - Oh No.mp3"; path = "../../../Downloads/Girl Talk - All Day (IA123)/01 - Girl Talk - Oh No.mp3"; sourceTree = "<group>"; };
+		80AA7C281B2B4CF100414D34 /* 02 - Girl Talk - Let It Out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "02 - Girl Talk - Let It Out.mp3"; path = "../../../Downloads/Girl Talk - All Day (IA123)/02 - Girl Talk - Let It Out.mp3"; sourceTree = "<group>"; };
+		80D80A741B2B1D8E001F0743 /* FISJukeboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISJukeboxViewController.h; sourceTree = "<group>"; };
+		80D80A751B2B1D8E001F0743 /* FISJukeboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISJukeboxViewController.m; sourceTree = "<group>"; };
+		80EB2C6E1B2A261700C9F030 /* FISSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSong.h; sourceTree = "<group>"; };
+		80EB2C6F1B2A261700C9F030 /* FISSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSong.m; sourceTree = "<group>"; };
+		80EB2C711B2A268100C9F030 /* FISPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlaylist.h; sourceTree = "<group>"; };
+		80EB2C721B2A268100C9F030 /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylist.m; sourceTree = "<group>"; };
 		D243E15CEC3F26D0618321C7 /* libPods-JukeboxViewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JukeboxViewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,7 +149,13 @@
 			children = (
 				72DD192219A66296004F3C2F /* FISAppDelegate.h */,
 				72DD192319A66296004F3C2F /* FISAppDelegate.m */,
+				80EB2C6E1B2A261700C9F030 /* FISSong.h */,
+				80EB2C6F1B2A261700C9F030 /* FISSong.m */,
+				80EB2C711B2A268100C9F030 /* FISPlaylist.h */,
+				80EB2C721B2A268100C9F030 /* FISPlaylist.m */,
 				72DD192519A66296004F3C2F /* Main.storyboard */,
+				80D80A741B2B1D8E001F0743 /* FISJukeboxViewController.h */,
+				80D80A751B2B1D8E001F0743 /* FISJukeboxViewController.m */,
 				72DD192B19A66296004F3C2F /* Images.xcassets */,
 				72DD191A19A66296004F3C2F /* Supporting Files */,
 			);
@@ -192,6 +202,8 @@
 				72DD195419A66AEE004F3C2F /* old_thing_back.mp3 */,
 				72DD195519A66AEE004F3C2F /* gangsta_bleeding_love.mp3 */,
 				72DD195C19A66F3A004F3C2F /* bailando.mp3 */,
+				80AA7C261B2B4CEB00414D34 /* 01 - Girl Talk - Oh No.mp3 */,
+				80AA7C281B2B4CF100414D34 /* 02 - Girl Talk - Let It Out.mp3 */,
 			);
 			name = songs;
 			sourceTree = "<group>";
@@ -284,7 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80AA7C291B2B4CF100414D34 /* 02 - Girl Talk - Let It Out.mp3 in Resources */,
 				72DD192C19A66296004F3C2F /* Images.xcassets in Resources */,
+				80AA7C271B2B4CEB00414D34 /* 01 - Girl Talk - Oh No.mp3 in Resources */,
 				72DD195819A66AEE004F3C2F /* mo_money_mo_problems.mp3 in Resources */,
 				72DD195719A66AEE004F3C2F /* higher_love.mp3 in Resources */,
 				72DD195919A66AEE004F3C2F /* old_thing_back.mp3 in Resources */,
@@ -344,8 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EB2C731B2A268100C9F030 /* FISPlaylist.m in Sources */,
 				72DD192019A66296004F3C2F /* main.m in Sources */,
 				72DD192419A66296004F3C2F /* FISAppDelegate.m in Sources */,
+				80EB2C701B2A261700C9F030 /* FISSong.m in Sources */,
+				80D80A761B2B1D8E001F0743 /* FISJukeboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
